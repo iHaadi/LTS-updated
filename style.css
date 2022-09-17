@@ -1,0 +1,129 @@
+html {
+    font-size: 22px;
+}
+
+/* BODY DESIGN BY iHAADI*/
+
+body {
+    min-height: 100vh;
+    max-width:80vw;
+    margin: 0 auto;
+    padding: 1rem;
+    background:rgb(255, 215, 162);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-transform: capitalize;
+    border-radius:10px;
+    text-align: justify;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content:space-evenly;
+}
+
+.grid-item{
+    display:grid;
+    background: rgb(247, 255, 186);
+    padding: 12px;
+    border-radius:6px;
+
+}
+
+/* IMAGE RESPONSIVENESS */
+img{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+/* TABLE */
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+tr:nth-child(odd){
+    background-color:gray;
+}
+
+/* NAVBAR AND LINKS */
+#navbar> ul{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 1;
+    list-style-type: none;
+    text-indent:20px;
+    background: green;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    border-radius:4px;
+}
+
+a{text-decoration: none;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    transition:all 0.5s ease-in-out;
+    
+}
+
+a:hover{
+    color:black
+}
+
+/* contact form styling */
+
+form {
+    background: beige;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px double transparent;
+    transition: all 0.5s ease ;
+}
+
+input, textarea{
+    background: rgb(194, 255, 255);
+    height: auto;
+    border-radius: 4px;
+    border: 5px solid transparent ;
+    transition: all 0.5s ease ;
+}
+
+fieldset{
+    color: orange;
+    border: 10px double rgb(224, 238, 250);
+    font-family: sans-serif;
+}
+
+input:hover{
+    background: rgb(237, 186, 237)
+}
+
+textarea:hover{
+    background: rgb(237, 186, 237)
+}
+
+form:hover{
+    background:rgb(209, 238, 197)
+}
+
+.button{
+    background: rgb(251, 208, 167);
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover{
+    background: rgb(133, 225, 233);
+    scale: 1.1;
+}
+
+/* end */
